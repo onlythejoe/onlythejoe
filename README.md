@@ -11,12 +11,6 @@
   Ceci n’est pas un portfolio, mais une carte d’accès vers mes univers.
 </p>
 
-<!-- Badges -->
-<p align="center">
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=onlythejoe&style=flat-square&color=white&label=visitors" />
-  <img alt="Focus" src="https://img.shields.io/badge/focus-atypikhouse%20%7C%20electronic%20artefacts-black?style=flat-square&color=white" />
-</p>
-
 ---
 
 ### Links
