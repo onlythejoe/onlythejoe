@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://joemadethis.carrd.co">
-    <img src="https://raw.githubusercontent.com/onlythejoe/onlythejoe/main/assets/profile-card.svg" alt="Only the Joe — profile card" width="820" />
+    <img src="https://github.com/onlythejoe/onlythejoe/blob/main/assets/profile-card.svg" alt="Only the Joe — profile card" width="820" />
   </a>
 </p>
 
