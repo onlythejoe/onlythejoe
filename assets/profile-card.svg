@@ -5,51 +5,52 @@
     </filter>
   </defs>
 
-  <!-- Carte (440px de haut, ombre) -->
+  <!-- Carte -->
   <rect x="40" y="40" width="920" height="440" rx="24" ry="24"
         fill="#0F1115" stroke="#1C1F27" stroke-width="1" filter="url(#cardShadow)"/>
 
-  <!-- Titres (recentrés vers le haut) -->
+  <!-- Titre -->
   <text x="100" y="108" fill="#F3F4F6"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="36" font-weight="700">Hi, I'm Joe</text>
 
+  <!-- Sous-titre (2 lignes, spacing fixe) -->
   <text x="100" y="136" fill="#A3A6AE"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="16" font-weight="500">
     <tspan x="100" dy="20">Digital &amp; Creative Project Manager</tspan>
-    <tspan x="100" dy="18">Paris</tspan>
+    <tspan x="100" dy="20">Paris</tspan>
   </text>
 
-  <!-- Tagline -->
-  <text x="100" y="172" fill="#8B8F98"
+  <!-- Tagline (décalée pour éviter tout chevauchement) -->
+  <text x="100" y="196" fill="#8B8F98"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="13" font-weight="300" font-style="italic">
     This is a pass to my universes.
   </text>
 
-  <!-- Badges -->
-  <rect x="100" y="194" width="168" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
-  <text x="116" y="212" fill="#C8CBD2"
+  <!-- Badges (descendus à 220) -->
+  <rect x="100" y="220" width="168" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text x="116" y="239" fill="#C8CBD2"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="12" font-weight="400">Design Systems</text>
 
-  <rect x="280" y="194" width="128" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
-  <text x="296" y="212" fill="#C8CBD2"
+  <rect x="280" y="220" width="128" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text x="296" y="239" fill="#C8CBD2"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="12" font-weight="400">WordPress</text>
 
-  <rect x="420" y="194" width="128" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
-  <text x="436" y="212" fill="#C8CBD2"
+  <rect x="420" y="220" width="128" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text x="436" y="239" fill="#C8CBD2"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="12" font-weight="400">Pipelines</text>
 
-  <rect x="560" y="194" width="112" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
-  <text x="576" y="212" fill="#C8CBD2"
+  <rect x="560" y="220" width="112" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text x="576" y="239" fill="#C8CBD2"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="12" font-weight="400">Narrative</text>
 
-  <!-- Footer (projets, centré visuellement) -->
+  <!-- Footer -->
   <text x="100" y="340" fill="#9AA0A6"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="13" font-weight="400">Selected projects</text>
