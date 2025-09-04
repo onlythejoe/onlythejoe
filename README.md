@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-card.svg" alt="Only the Joe — profile card" width="800"/>
+  <img src="https://raw.githubusercontent.com/onlythejoe/onlythejoe/main/assets/profile-card.svg" alt="Only the Joe — profile card" width="800" />
 </p>
 
 <p align="center">
