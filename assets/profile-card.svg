@@ -1,98 +1,70 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
   <defs>
-    <!-- Ombre douce de la carte -->
     <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
     </filter>
   </defs>
 
-  <!-- CARTE (sans fond global) -->
+  <!-- Carte (440px de haut, ombre) -->
   <rect x="40" y="40" width="920" height="440" rx="24" ry="24"
         fill="#0F1115" stroke="#1C1F27" stroke-width="1" filter="url(#cardShadow)"/>
 
-  <!-- TITRES -->
-  <text x="100" y="120" fill="#F3F4F6"
+  <!-- Titres (recentrés vers le haut) -->
+  <text x="100" y="108" fill="#F3F4F6"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="36" font-weight="700">Only the Joe</text>
+        font-size="36" font-weight="700">Hi, I'm Joe</text>
 
-  <!-- Sous-titre sur 2 lignes (pas de tirets) -->
-  <text x="100" y="154" fill="#A3A6AE"
+  <text x="100" y="136" fill="#A3A6AE"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="16" font-weight="500">
-    <tspan x="100" dy="22">Digital &amp; Creative Project Manager</tspan>
-    <tspan x="100" dy="20">Paris</tspan>
+    <tspan x="100" dy="20">Digital &amp; Creative Project Manager</tspan>
+    <tspan x="100" dy="18">Paris</tspan>
   </text>
 
   <!-- Tagline -->
-  <text x="100" y="210" fill="#8B8F98"
+  <text x="100" y="172" fill="#8B8F98"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="13" font-weight="300" font-style="italic">
-    This is not a portfolio — it’s a pass to my universes.
+    This is not a portfolio, it’s a pass to my universes.
   </text>
 
-  <!-- BADGES -->
-  <rect x="100" y="234" width="168" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
-  <text x="116" y="253" fill="#C8CBD2"
+  <!-- Badges -->
+  <rect x="100" y="194" width="168" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text x="116" y="212" fill="#C8CBD2"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="12" font-weight="400">Design Systems</text>
 
-  <rect x="280" y="234" width="128" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
-  <text x="296" y="253" fill="#C8CBD2"
+  <rect x="280" y="194" width="128" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text x="296" y="212" fill="#C8CBD2"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="12" font-weight="400">WordPress</text>
 
-  <rect x="420" y="234" width="128" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
-  <text x="436" y="253" fill="#C8CBD2"
+  <rect x="420" y="194" width="128" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text x="436" y="212" fill="#C8CBD2"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="12" font-weight="400">Pipelines</text>
 
-  <rect x="560" y="234" width="112" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
-  <text x="576" y="253" fill="#C8CBD2"
+  <rect x="560" y="194" width="112" height="28" rx="8" ry="8" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text x="576" y="212" fill="#C8CBD2"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="12" font-weight="400">Narrative</text>
 
-  <!-- BOUTONS VISUELS (textes sans tirets) -->
-  <rect x="100" y="286" width="220" height="44" rx="14" ry="14" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
-  <text x="148" y="313" fill="#E7E9EE"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="14" font-weight="500">Carrd  hub</text>
-
-  <rect x="340" y="286" width="220" height="44" rx="14" ry="14" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
-  <text x="372" y="313" fill="#E7E9EE"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="14" font-weight="500">AtypikHouse  site</text>
-
-  <rect x="580" y="286" width="220" height="44" rx="14" ry="14" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
-  <text x="620" y="313" fill="#E7E9EE"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="14" font-weight="500">Instagram  profile</text>
-
-  <rect x="100" y="342" width="220" height="44" rx="14" ry="14" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
-  <text x="142" y="369" fill="#E7E9EE"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="14" font-weight="500">LinkedIn  profile</text>
-
-  <rect x="340" y="342" width="220" height="44" rx="14" ry="14" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
-  <text x="394" y="369" fill="#E7E9EE"
-        font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="14" font-weight="500">Contact  email</text>
-
-  <!-- FOOTER -->
-  <text x="100" y="404" fill="#9AA0A6"
+  <!-- Footer (projets, centré visuellement) -->
+  <text x="100" y="340" fill="#9AA0A6"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="13" font-weight="400">Selected projects</text>
 
-  <text x="100" y="432" fill="#D1D5DB"
+  <text x="100" y="366" fill="#D1D5DB"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="16" font-weight="500">AtypikHouse</text>
-  <text x="100" y="452" fill="#A3A6AE"
+        font-size="16" font-weight="600">AtypikHouse</text>
+  <text x="100" y="386" fill="#A3A6AE"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="14" font-weight="300">WordPress custom CRM &amp; immersive lodging platform</text>
 
-  <text x="100" y="480" fill="#D1D5DB"
+  <text x="100" y="412" fill="#D1D5DB"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
-        font-size="16" font-weight="500">Electronic Artefacts</text>
-  <text x="100" y="500" fill="#A3A6AE"
+        font-size="16" font-weight="600">Electronic Artefacts</text>
+  <text x="100" y="432" fill="#A3A6AE"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif"
         font-size="14" font-weight="300">Narrative universe, digital artefacts &amp; NFT 3.0</text>
 </svg>
