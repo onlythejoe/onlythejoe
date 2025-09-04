@@ -27,18 +27,3 @@
 - **Electronic Artefacts** — narrative universe, digital artefacts & NFT 3.0
 
 ---
-
-### Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=onlythejoe&show_icons=false&hide_title=true&include_all_commits=true&count_private=false&bg_color=000000&text_color=FFFFFF&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=onlythejoe&layout=compact&hide_title=true&bg_color=000000&text_color=FFFFFF&hide_border=true" />
-</p>
-
----
-
-<p align="center" style="color:#777; font-size:12px;">
-  “Not a README — a minimal dashboard.”
-</p>
