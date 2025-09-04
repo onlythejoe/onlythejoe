@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="520" viewBox="0 0 1000 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* GitHub ne charge pas Inter : on “simule” via system-ui fins */
+    .ui { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", sans-serif; }
+    .title { font-weight: 600; font-size: 34px; letter-spacing: 0.2px; fill: #F3F4F6; }
+    .subtitle { font-weight: 300; font-size: 16px; fill: #A3A6AE; }
+    .muted { font-weight: 300; font-size: 13px; fill: #8B8F98; }
+    .btn-label { font-weight: 400; font-size: 14px; fill: #E7E9EE; }
+    .badge { font-weight: 400; font-size: 12px; fill: #C8CBD2; }
+  </style>
+
+  <!-- Fond -->
+  <rect x="0" y="0" width="1000" height="520" fill="#0B0B0F"/>
+  <!-- Carte -->
+  <rect x="40" y="40" rx="24" ry="24" width="920" height="440" fill="#0F1115" stroke="#1C1F27" stroke-width="1"/>
+
+  <!-- Header -->
+  <text class="ui title" x="100" y="130">Only the Joe</text>
+  <text class="ui subtitle" x="100" y="160">Digital & Creative Project Manager — Paris</text>
+  <text class="ui muted" x="100" y="188">This is not a portfolio — it’s a pass to my universes.</text>
+
+  <!-- Badges fins -->
+  <rect x="100" y="210" rx="8" ry="8" width="168" height="28" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text class="ui badge" x="116" y="229">Design Systems</text>
+
+  <rect x="280" y="210" rx="8" ry="8" width="128" height="28" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text class="ui badge" x="296" y="229">WordPress</text>
+
+  <rect x="420" y="210" rx="8" ry="8" width="128" height="28" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text class="ui badge" x="436" y="229">Pipelines</text>
+
+  <rect x="560" y="210" rx="8" ry="8" width="112" height="28" fill="#12141A" stroke="#1E2430" stroke-width="1"/>
+  <text class="ui badge" x="576" y="229">Narrative</text>
+
+  <!-- Boutons (cliquables) -->
+  <!-- Carrd -->
+  <a xlink:href="https://joemadethis.carrd.co" target="_blank">
+    <rect x="100" y="270" rx="14" ry="14" width="220" height="44" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
+    <text class="ui btn-label" x="138" y="297">Carrd — hub</text>
+  </a>
+  <!-- AtypikHouse -->
+  <a xlink:href="https://dsp-cdp-s22-g10.fr/" target="_blank">
+    <rect x="340" y="270" rx="14" ry="14" width="220" height="44" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
+    <text class="ui btn-label" x="366" y="297">AtypikHouse — site</text>
+  </a>
+  <!-- Instagram -->
+  <a xlink:href="https://www.instagram.com/creativestuff.jpg/" target="_blank">
+    <rect x="580" y="270" rx="14" ry="14" width="220" height="44" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
+    <text class="ui btn-label" x="614" y="297">Instagram — profile</text>
+  </a>
+
+  <!-- Deuxième rang -->
+  <!-- LinkedIn -->
+  <a xlink:href="https://www.linkedin.com/in/joey-n%C3%A9ot-marquet-320747178/" target="_blank">
+    <rect x="100" y="330" rx="14" ry="14" width="220" height="44" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
+    <text class="ui btn-label" x="138" y="357">LinkedIn — profile</text>
+  </a>
+  <!-- Email -->
+  <a xlink:href="mailto:marquetjoey@gmail.com" target="_blank">
+    <rect x="340" y="330" rx="14" ry="14" width="220" height="44" fill="#0B0C10" stroke="#272B35" stroke-width="1"/>
+    <text class="ui btn-label" x="394" y="357">Contact — email</text>
+  </a>
+
+  <!-- Footer -->
+  <text class="ui muted" x="100" y="404">Selected projects</text>
+  <text class="ui subtitle" x="100" y="430">AtypikHouse — WordPress custom CRM & immersive lodging platform</text>
+  <text class="ui subtitle" x="100" y="452">Electronic Artefacts — narrative universe, digital artefacts & NFT 3.0</text>
+</svg>
